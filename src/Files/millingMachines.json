@@ -1,0 +1,98 @@
+[
+  {
+    "id": 301,
+    "name": "Vertical Turret Milling Machine",
+    "category": "Milling",
+    "brand": "SuperMach",
+    "model": "VTM-2",
+    "description": "Turret type vertical mill for precision toolroom and die work.",
+    "specifications": {
+      "tableSize": "1270 x 254 mm",
+      "longitudinalTravel": "800 mm",
+      "crossTravel": "360 mm",
+      "verticalTravel": "400 mm",
+      "spindleSpeedRange": "70 – 4200 RPM (Variable)",
+      "spindleTaper": "R8 / ISO30",
+      "motorPower": "3 HP",
+      "quillTravel": "127 mm",
+      "weight": "1150 kg"
+    }
+  },
+  {
+    "id": 302,
+    "name": "Universal Milling Machine",
+    "category": "Milling",
+    "brand": "SuperMach",
+    "model": "UM-4",
+    "description": "Swivel table universal mill for helical, gear and general milling operations.",
+    "specifications": {
+      "tableSize": "1370 x 300 mm",
+      "longitudinalTravel": "900 mm",
+      "crossTravel": "360 mm",
+      "verticalTravel": "420 mm",
+      "spindleSpeedRange": "40 – 1600 RPM (12 steps)",
+      "spindleTaper": "ISO40",
+      "motorPower": "5 HP",
+      "overarmDiameter": "110 mm",
+      "weight": "1850 kg"
+    }
+  },
+  {
+    "id": 303,
+    "name": "Bed Type Milling Machine",
+    "category": "Milling",
+    "brand": "SuperMach",
+    "model": "BTM-5",
+    "description": "Rigid bed type mill for heavy stock removal and large component machining.",
+    "specifications": {
+      "tableSize": "1800 x 400 mm",
+      "longitudinalTravel": "1200 mm",
+      "crossTravel": "520 mm",
+      "verticalTravel": "500 mm",
+      "spindleSpeedRange": "30 – 2000 RPM (Stepless)",
+      "spindleTaper": "ISO50",
+      "motorPower": "10 HP",
+      "feedRateRange": "10 – 800 mm/min",
+      "weight": "4200 kg"
+    }
+  },
+  {
+    "id": 304,
+    "name": "CNC Vertical Milling Center",
+    "category": "Milling",
+    "brand": "SuperMach",
+    "model": "VMC-850",
+    "description": "CNC vertical machining center for precision production parts.",
+    "specifications": {
+      "tableSize": "1000 x 500 mm",
+      "longitudinalTravel": "850 mm (X)",
+      "crossTravel": "500 mm (Y)",
+      "verticalTravel": "550 mm (Z)",
+      "spindleSpeedRange": "60 – 8000 RPM",
+      "spindleTaper": "BT40",
+      "motorPower": "11 kW",
+      "rapidTraverse": "30 / 30 / 24 m/min",
+      "toolCapacity": "24 ATC",
+      "weight": "5200 kg"
+    }
+  },
+  {
+    "id": 305,
+    "name": "Gear Head Milling & Drilling Machine",
+    "category": "Milling",
+    "brand": "SuperMach",
+    "model": "GHMD-45",
+    "description": "Combination gear head mill-drill for fabrication and maintenance shops.",
+    "specifications": {
+      "tableSize": "800 x 240 mm",
+      "longitudinalTravel": "500 mm",
+      "crossTravel": "230 mm",
+      "verticalTravel": "380 mm",
+      "spindleSpeedRange": "95 – 1600 RPM (6 gears)",
+      "spindleTaper": "MT4 / ISO30",
+      "motorPower": "2 HP",
+      "maxDrillingCapacity": "45 mm",
+      "weight": "480 kg"
+    }
+  }
+]

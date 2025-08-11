@@ -1,0 +1,98 @@
+[
+  {
+    "id": 401,
+    "name": "Table Saw 12 Inch Industrial",
+    "category": "Wood Cutting",
+    "brand": "SuperMach",
+    "model": "TS-12I",
+    "description": "Industrial table saw for precise ripping and crosscutting of hardwood panels and boards.",
+    "specifications": {
+      "bladeDiameter": "305 mm (12 in)",
+      "maxRipCapacityRight": "860 mm",
+      "maxCutDepth90": "95 mm",
+      "maxCutDepth45": "65 mm",
+      "bladeSpeed": "4000 RPM",
+      "motorPower": "5 HP",
+      "tableSize": "800 x 900 mm",
+      "arborDiameter": "30 mm",
+      "weight": "320 kg"
+    }
+  },
+  {
+    "id": 402,
+    "name": "Band Saw 18 Inch Wood",
+    "category": "Wood Cutting",
+    "brand": "SuperMach",
+    "model": "BSW-18",
+    "description": "18 inch band saw for curved cutting, ripping and resawing timber blocks.",
+    "specifications": {
+      "wheelDiameter": "457 mm (18 in)",
+      "throatCapacity": "440 mm",
+      "maxCutHeight": "300 mm",
+      "bladeLengthRange": "3300 – 3400 mm",
+      "bladeSpeed": "750 / 1000 m/min (2 speed)",
+      "motorPower": "3 HP",
+      "tableSize": "560 x 600 mm",
+      "tilt": "+45° / -10°",
+      "weight": "280 kg"
+    }
+  },
+  {
+    "id": 403,
+    "name": "Planer Thicknesser 20 Inch Combined",
+    "category": "Wood Cutting",
+    "brand": "SuperMach",
+    "model": "PT-20C",
+    "description": "Combined surface planer and thicknesser for dimensioning rough sawn timber.",
+    "specifications": {
+      "planingWidth": "508 mm",
+      "maxThicknessingWidth": "500 mm",
+      "maxThicknessingHeight": "230 mm",
+      "cutterblockDiameter": "100 mm",
+      "knives": 4,
+      "feedSpeed": "6 / 12 m/min",
+      "cutterblockSpeed": "4800 RPM",
+      "motorPower": "7.5 HP",
+      "weight": "680 kg"
+    }
+  },
+  {
+    "id": 404,
+    "name": "CNC Wood Router 1325",
+    "category": "Wood Cutting",
+    "brand": "SuperMach",
+    "model": "CNC-1325",
+    "description": "CNC router for cabinet making, sign carving and panel profiling.",
+    "specifications": {
+      "workingArea": "1300 x 2500 mm",
+      "spindlePower": "6 kW",
+      "spindleSpeedRange": "6000 – 24000 RPM",
+      "travelSpeed": "35 m/min",
+      "cuttingSpeed": "25 m/min",
+      "toolChange": "Manual",
+      "motorType": "Stepper",
+      "tableType": "Vacuum + T-slot",
+      "weight": "1500 kg"
+    }
+  },
+  {
+    "id": 405,
+    "name": "Panel Saw Sliding 3200 mm",
+    "category": "Wood Cutting",
+    "brand": "SuperMach",
+    "model": "PS-3200",
+    "description": "Sliding panel saw for precision sizing of large laminated boards and MDF panels.",
+    "specifications": {
+      "slidingTableLength": "3200 mm",
+      "mainBladeDiameter": "355 mm",
+      "scoringBladeDiameter": "120 mm",
+      "maxCutHeight90": "115 mm",
+      "maxCutHeight45": "80 mm",
+      "mainBladeSpeed": "4000 RPM",
+      "scoringBladeSpeed": "8000 RPM",
+      "motorPower": "7.5 HP (Main) + 1 HP (Scoring)",
+      "tableSize": "910 x 1100 mm",
+      "weight": "950 kg"
+    }
+  }
+]
