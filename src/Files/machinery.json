@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "7 Feet Heavy Duty Lathe Machine",
+    "category": "Machinery",
+    "brand": "SuperMach",
+    "model": "HDL-2130",
+    "description": "Compact 7 ft heavy duty lathe designed for precision turning of medium-length components with reduced footprint and energy use.",
+    "specifications": {
+      "bedLength": "2134 mm",
+      "swingOverBed": "500 mm",
+      "spindleBore": "80 mm",
+      "motorPower": "7.5 HP",
+      "maxTurningDiameter": "650 mm",
+      "maxTurningLength": "1700 mm",
+      "weight": "2500 kg"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Belt Driven Heavy Duty Lathe Machine",
+    "category": "Machinery",
+    "brand": "SuperMach",
+    "model": "BDL-3000",
+    "description": "Industrial belt driven heavy duty lathe offering wide speed range and high torque for roughing and precision finishing of long shafts and flanges.",
+    "specifications": {
+      "bedLength": "3000 mm",
+      "swingOverBed": "600 mm",
+      "spindleBore": "105 mm",
+      "motorPower": "10 HP",
+      "maxTurningDiameter": "800 mm",
+      "maxTurningLength": "2500 mm",
+      "weight": "3600 kg"
+    }
+  },
+  {
+    "id": 3,
+    "name": "10 Feet Heavy Duty Lathe Machine",
+    "category": "Machinery",
+    "brand": "SuperMach",
+    "model": "HDL-3048",
+    "description": "10 ft heavy duty lathe balancing rigidity and footprint for general workshop and maintenance turning tasks.",
+    "specifications": {
+      "bedLength": "3048 mm",
+      "swingOverBed": "600 mm",
+      "spindleBore": "105 mm",
+      "motorPower": "12 HP",
+      "maxTurningDiameter": "820 mm",
+      "maxTurningLength": "2600 mm",
+      "weight": "3950 kg"
+    }
+  },
+  {
+    "id": 4,
+    "name": "10 Feet Belt Driven Extra Heavy Duty Lathe Machine",
+    "category": "Machinery",
+    "brand": "SuperMach",
+    "model": "BXDL-3048",
+    "description": "Belt driven extra heavy duty 10 ft lathe with enhanced swing and torque for tough roughing operations and large diameter workpieces.",
+    "specifications": {
+      "bedLength": "3048 mm",
+      "swingOverBed": "700 mm",
+      "spindleBore": "130 mm",
+      "motorPower": "15 HP",
+      "maxTurningDiameter": "950 mm",
+      "maxTurningLength": "2600 mm",
+      "weight": "4800 kg"
+    }
+  },
+  {
+    "id": 5,
+    "name": "16 Feet Heavy Duty Lathe Machine",
+    "category": "Machinery",
+    "brand": "SuperMach",
+    "model": "HDL-4877",
+    "description": "Long bed 16 ft heavy duty lathe suited for extended shaft and roller turning with consistent accuracy over length.",
+    "specifications": {
+      "bedLength": "4877 mm",
+      "swingOverBed": "600 mm",
+      "spindleBore": "105 mm",
+      "motorPower": "12 HP",
+      "maxTurningDiameter": "820 mm",
+      "maxTurningLength": "4000 mm",
+      "weight": "5200 kg"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Manual Heavy Duty Lathe Machines",
+    "category": "Machinery",
+    "brand": "SuperMach",
+    "model": "MHDL-2500",
+    "description": "Manual control heavy duty lathe providing dependable performance for tool rooms and maintenance shops.",
+    "specifications": {
+      "bedLength": "2500 mm",
+      "swingOverBed": "500 mm",
+      "spindleBore": "80 mm",
+      "motorPower": "7.5 HP",
+      "maxTurningDiameter": "650 mm",
+      "maxTurningLength": "1400 mm",
+      "weight": "2300 kg"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Extra Heavy Duty Lathe Machine",
+    "category": "Machinery",
+    "brand": "SuperMach",
+    "model": "EHDL-4000",
+    "description": "Extra heavy duty lathe engineered for large diameter, high mass workpieces requiring maximum rigidity and power.",
+    "specifications": {
+      "bedLength": "4000 mm",
+      "swingOverBed": "800 mm",
+      "spindleBore": "150 mm",
+      "motorPower": "20 HP",
+      "maxTurningDiameter": "1100 mm",
+      "maxTurningLength": "3000 mm",
+      "weight": "7200 kg"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Heavy Duty Lathe Machine",
+    "category": "Machinery",
+    "brand": "SuperMach",
+    "model": "HDL-3500",
+    "description": "General purpose heavy duty lathe delivering reliability for continuous production turning operations.",
+    "specifications": {
+      "bedLength": "3500 mm",
+      "swingOverBed": "650 mm",
+      "spindleBore": "110 mm",
+      "motorPower": "12 HP",
+      "maxTurningDiameter": "850 mm",
+      "maxTurningLength": "2700 mm",
+      "weight": "4100 kg"
+    }
+  }
+]

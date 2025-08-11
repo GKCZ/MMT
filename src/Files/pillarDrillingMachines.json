@@ -1,0 +1,92 @@
+[
+  {
+    "id": 210,
+    "name": "Pillar Drilling Machine 13mm",
+    "category": "Drilling",
+    "brand": "SuperMach",
+    "model": "PD-13",
+    "description": "Compact pillar drill for small component drilling and light fabrication tasks.",
+    "specifications": {
+      "drillingCapacity": "13 mm",
+      "spindleTravel": "75 mm",
+      "columnDiameter": "70 mm",
+      "spindleSpeedRange": "500 – 3000 RPM (5 steps)",
+      "tableSize": "230 x 230 mm",
+      "motorPower": "0.5 HP",
+      "taper": "JT2",
+      "weight": "45 kg"
+    }
+  },
+  {
+    "id": 211,
+    "name": "Pillar Drilling Machine 25mm",
+    "category": "Drilling",
+    "brand": "SuperMach",
+    "model": "PD-25",
+    "description": "Medium duty pillar drill for general workshop and production support drilling.",
+    "specifications": {
+      "drillingCapacity": "25 mm",
+      "spindleTravel": "125 mm",
+      "columnDiameter": "92 mm",
+      "spindleSpeedRange": "150 – 2500 RPM (8 steps)",
+      "tableSize": "340 x 340 mm",
+      "motorPower": "1.5 HP",
+      "taper": "MT3",
+      "weight": "185 kg"
+    }
+  },
+  {
+    "id": 212,
+    "name": "Pillar Drilling Machine 38mm",
+    "category": "Drilling",
+    "brand": "SuperMach",
+    "model": "PD-38",
+    "description": "Heavy pillar drill with robust column and longer spindle stroke for fabrication shops.",
+    "specifications": {
+      "drillingCapacity": "38 mm",
+      "spindleTravel": "180 mm",
+      "columnDiameter": "130 mm",
+      "spindleSpeedRange": "90 – 1800 RPM (10 steps)",
+      "tableSize": "450 x 450 mm",
+      "motorPower": "2 HP",
+      "taper": "MT4",
+      "weight": "420 kg"
+    }
+  },
+  {
+    "id": 213,
+    "name": "Pillar Drilling Machine 40mm Auto Feed",
+    "category": "Drilling",
+    "brand": "SuperMach",
+    "model": "PD-40A",
+    "description": "Auto feed pillar drill improving productivity in repetitive production drilling.",
+    "specifications": {
+      "drillingCapacity": "40 mm",
+      "spindleTravel": "190 mm",
+      "columnDiameter": "140 mm",
+      "spindleSpeedRange": "70 – 1600 RPM (12 steps)",
+      "tableSize": "500 x 500 mm",
+      "motorPower": "3 HP",
+      "taper": "MT4",
+      "weight": "560 kg"
+    }
+  },
+  {
+    "id": 214,
+    "name": "Pillar Drilling Machine 50mm Heavy Duty",
+    "category": "Drilling",
+    "brand": "SuperMach",
+    "model": "PD-50H",
+    "description": "Heavy duty pillar drill for large diameter hole making in thick plate and structural members.",
+    "specifications": {
+      "drillingCapacity": "50 mm",
+      "spindleTravel": "220 mm",
+      "columnDiameter": "160 mm",
+      "spindleSpeedRange": "50 – 1400 RPM (12 steps)",
+      "tableSize": "560 x 560 mm",
+      "motorPower": "5 HP",
+      "taper": "MT5",
+      "weight": "780 kg"
+    }
+  }
+]
