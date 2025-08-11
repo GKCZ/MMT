@@ -1,5 +1,11 @@
 * {
-  height: 0px;
-  width: 0px;
+  margin: 0;
   box-sizing: border-box;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
 }
