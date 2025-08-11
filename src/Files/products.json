@@ -1,8 +1,0 @@
-{
-    "machinery": "./machinery.json",
-    "motors": "./motors.json",
-    "drillingMachines": "./drillingMachines.json",
-    "millingMachines": "./millingMachines.json",
-    "pillarDrillingMachines": "./pillarDrillingMachines.json",
-    "woodCuttingMachines": "./woodCuttingMachines.json"
-}
