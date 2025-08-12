@@ -1,5 +1,8 @@
-* {
-  box-sizing: border-box;
-  height: 0px;
-  width: 0px;
+* { 
+  box-sizing: border-box; 
+}
+
+html, body, #root { 
+  height: 100%; 
+  margin: 0; 
 }

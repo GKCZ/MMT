@@ -1,11 +1,6 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
+* { 
+  box-sizing: border-box; 
 }
-
-div {
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  width: auto;
+html, body, #root { 
+  height: 100%; margin: 0; 
 }

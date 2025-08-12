@@ -15,7 +15,19 @@ const Home = () => {
   },[])
 
   return (
-    <div>Home</div>
+    <>
+      <div id="latheDiv">
+      {latheMachines.map(lathe => (
+        <div key={lathe.id}>
+          <p>{lathe.name}</p>
+          <p>{lathe.category}</p>
+          <p>{lathe.brand}</p>
+          <p>{lathe.model}</p>
+          <p>{lathe.description}</p>
+        </div>
+      ))}
+      </div>
+    </>
   )
 }
 
