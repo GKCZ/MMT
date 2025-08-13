@@ -1,33 +1,30 @@
 import { useEffect, useState } from "react"
-import type { ProductIndex } from "../Constants/ProductConstants"
+import { getProductPath, ProductType, type ProductIndex} from "../Constants/ProductConstants"
 
 const Home = () => {
 
-  const [latheMachines, setLatheMachines] = useState<ProductIndex[]>([]);
+  const [products, setProducts] = useState<[typeof ProductType[number], ProductIndex[]][]>([]);
 
   useEffect(() => {
-    const fetchLatheMachineData = async() => {
-      const response = await fetch("/Files/latheMachines.json");
-      const data = await response.json();
-      setLatheMachines(data);
+    const loadData = async() => {
+      const products = await Promise.all(
+        ProductType.map(async(type): Promise<[typeof type, ProductIndex[]]> => {
+          const response = await fetch(getProductPath(type));
+          const data: ProductIndex[] = await response.json();
+          return [type, data];
+        })
+      )
+      setProducts(products as [typeof ProductType[number], ProductIndex[]][]);
     }
-    fetchLatheMachineData();
+    loadData();
   },[])
 
   return (
-    <>
-      <div id="latheDiv">
-      {latheMachines.map(lathe => (
-        <div key={lathe.id}>
-          <p>{lathe.name}</p>
-          <p>{lathe.category}</p>
-          <p>{lathe.brand}</p>
-          <p>{lathe.model}</p>
-          <p>{lathe.description}</p>
-        </div>
-      ))}
-      </div>
-    </>
+    <div>
+    {products.map((product: [typeof ProductType[number], ProductIndex[]]) => (
+      <p>{product[0]}</p>
+    ))}
+    </div>
   )
 }
 
