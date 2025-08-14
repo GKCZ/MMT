@@ -34,3 +34,8 @@ export const ProductPath: Record<ProductTypeKey, string> = {
 };
 
 export const getProductPath = (type: ProductTypeKey) => ProductPath[type];
+
+export interface ProductListProps {
+  productList: ProductIndex[],
+  productCategory: string
+}

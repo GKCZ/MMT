@@ -1,5 +1,17 @@
 import { useEffect, useState } from "react"
-import { getProductPath, ProductType, type ProductIndex} from "../Constants/ProductConstants"
+import { getProductPath, ProductType, type ProductIndex,type ProductTypeKey} from "../Constants/ProductConstants"
+import ProductList from "./ProductList";
+
+function displayProductList(productCategory: ProductTypeKey) {
+  const productCategoryDiv = document.getElementById(productCategory);
+  if(productCategoryDiv) {
+    if(productCategoryDiv.style.display === 'none') {
+      productCategoryDiv.style.display = 'block'
+    }else{
+      productCategoryDiv.style.display = 'none'
+    }
+  }
+}
 
 const Home = () => {
 
@@ -21,8 +33,13 @@ const Home = () => {
 
   return (
     <div>
-    {products.map((product: [typeof ProductType[number], ProductIndex[]]) => (
-      <p>{product[0]}</p>
+      {products.map((product: [typeof ProductType[number], ProductIndex[]]) => (
+        <div>
+          <span onClick={() => displayProductList(product[0])}>{product[0]}</span>
+          <div key={product[0]}>
+            <ProductList productCategory={product[0]} productList={product[1]}/>
+          </div>
+        </div>
     ))}
     </div>
   )
